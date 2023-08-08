@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file -->
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Assignment</title>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+       <h2><img src="./photo-camera.png">Chameleon</h2>
+
+        <nav >
+            <ul class="nav-item">
+                <li><a href="./index.html">Add User</a></li>
+                <li><a href="./Home.html">View User</a></li>
+                <li><a href="./form.html">Forms</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Layouts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section-->
+    <section class="main-text-div">
+        <div class="div-form">
+            <h3>Simple Form</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, qui?</p><br/>
+            <h3>Company  Information</h3>
+            <hr/>
+
+            <div class="form-item-div">
+                <div class="form-item-text">
+                    <label for="fName">First Name</label><br/> 
+                    <input type="text" id="fName" placeholder="First Name"><br/> 
+                </div>
+                <div class="form-item-text">
+                    <label for="lName">Last Name</label><br/> 
+                    <input type="text" id="lName" placeholder="Last Name"><br/>
+                </div>
+                <div class="form-item-text">
+                    <label for="Age">Age</label><br/> 
+                    <input type="number" id="Age" placeholder="10"><br/>
+                </div>
+                <div class="form-item-text">
+                    <label for="UEmail">Email</label><br/> 
+                    <input type="email" id="email" placeholder="example@gmail.com"><br/>
+                </div>
+                <div class="form-item-text">
+                    <label for="phone">Contact Number</label><br/> 
+                    <input type="tel" id="phone" placeholder="071XXXXXXX"><br/>
+                </div>
+                <div class="form-btn">
+                    <ul>
+                        <li><input type="button" id="reset" value="Reset" onclick="resetData()"></li>
+                        <li><input type="button" id="save" value="Save" onclick="addUser()"></li>
+                    </ul> 
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <!-- form -->
+    <section class="table-section">
+        <div class="table-div" id="form-data">
+    
+        </div>
+
+    </section>
+
+    
+    <!-- footer section -->
+
+    <footer>
+        <div class="footer-div">
+            <p>Copyright <span>&copy; </span> <a href="#"> attanayake</a> All Rights reserved</p>
+        </div>
+        
+    </footer>
+
+    <!-- javascript file -->
+    <script src="./form.js"></script>
+</body>
+</html>
